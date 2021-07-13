@@ -1,0 +1,62 @@
+@media screen and (max-width: 1300px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    header .botoes-header1, .botoes-header2, .botoes-header3, .botoes-header4, .botoes-header5{
+        margin: 0px 0px 3px 0px;
+    
+    }
+    header .botoes-header3{
+        margin: 0px 0px 3px 0px;
+    }
+    body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-basis: 100%
+    }
+   .imagem-promocaobody{
+       display: none;
+   }
+    .group-body {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    
+    footer{
+        margin-top: 200px;
+    }
+    .oferta-blackfriday{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .container-adicionaremail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+       
+    }
+    .titulo-oferta{
+        font-family: 'Norwester';
+        font-size: 250%;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ececec;
+    }
+    .descricao-oferta1, .descricao-oferta2{
+        font-family: 'Cookit Regular';
+        font-size: 150%;
+        margin-left: 1%;
+        text-align: center;
+        color: #272626;
+    }
+}
